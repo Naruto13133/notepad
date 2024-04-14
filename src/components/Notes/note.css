@@ -1,5 +1,8 @@
+/* To make your Button float on parent make parent (Notes) position relative and child position relative */
+
 .notes{
-  /* z-index: 3; */
+  /* z-index: 3;
+  margin-left:20px; */
   position: absolute;
   flex: 1 0 200px;
  
@@ -14,7 +17,6 @@
   background-color: blueviolet;
   border-radius: 30px;
   margin-bottom:20px;
-  margin-left:20px;
   margin-top:20px;
   
 }
@@ -33,9 +35,10 @@
   border-radius: 20px;
   border-radius: 30px;
   margin-bottom:20px;
-  margin-left:20px;
   margin-top:20px;
-  /* margin-bottom: 20px; Remove margin-bottom as it's not needed for grid layout */
+  /* margin-bottom: 20px; 
+  margin-left:20px;
+  Remove margin-bottom as it's not needed for grid layout */
 }
 
 
@@ -102,7 +105,7 @@
   opacity: 1;
 }
 
-.note_editbutton{
+.note_button{
   font-weight:800;
   position: absolute;
   /* margin-top: 130px;
@@ -118,20 +121,24 @@
   border-radius: 50px;
   justify-self: center;
   justify-content: center;
+  /* margin-top: 270px;
+  margin-right: 240px; */
   /* position: inherit; */
   /* float: left;  */
   /* z-index: 2; */
-  margin-top: 270px;
-  margin-right: 240px;
   /* z-index: 2; */
 }
 
-.note_editbutton:hover{
+.note_button:hover{
   color: blue;
   background-color: yellow;
   transition: 300ms;
 }
 
+.note_editButtonPosition{
+  margin-top: 270px;
+  margin-right: 240px;
+}
 
 .note_head{
   font-size: x-large;
@@ -168,12 +175,10 @@ height: 170px; */
    
 }
 
-.note_deleteButton{
+/* .note_deleteButton{
   
   font-weight:800;
   position: absolute;
-  /* margin-top: 130px;
-  margin-left: 10px; */
   align-items: center;
   box-sizing: content-box;
   color: white;
@@ -184,13 +189,18 @@ height: 170px; */
   height: 30px;
   border-radius: 50px;
   justify-self: center;
-  justify-content: center;
+  justify-content: center; */
+  /* margin-top: 130px;*/
+ /* margin-left: 10px; */
   /* position: inherit; */
   /* float: left;  */
   /* z-index: 2; */
+  /* margin-top: 270px;*/
+  /*margin-left: 240px; */
+  /* z-index: 2; */
+/* }  */
+
+.note_deleteButtonPosition{
   margin-top: 270px;
   margin-left: 240px;
-  /* z-index: 2; */
-
-
 }
