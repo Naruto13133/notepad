@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
+// import SidebarButton from './components/UIB/uttons/SidebarButton';
+// import Note from './components/Notes/Note';
+import Notecontainer from './components/NoteContainer/Notecontainer';
+// import TestCard from './components/testCard/TestCard';
+// import Model from './components/Model/Model';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Notecontainer/>
     </div>
   );
 }
